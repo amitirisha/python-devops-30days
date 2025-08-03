@@ -1,11 +1,11 @@
 # Day 1 â€“ Python Setup & Basics
 
-## í¾¯ Objectives
+## ï¿½ï¿½ï¿½ Objectives
 - Install Python
 - Run first script
 - Understand comments & indentation
 
-## í³š Theory
+## ï¿½ï¿½ï¿½ Theory
 Python is widely used in DevOps to write automation scripts, interact with APIs, and manage infrastructure.
 
 ### **Installation**
@@ -17,3 +17,33 @@ Python is widely used in DevOps to write automation scripts, interact with APIs,
 ```bash
 sudo apt update
 sudo apt install python3 -y
+Verify Installation
+bash
+Copy
+Edit
+python3 --version
+Key Points
+Python uses indentation instead of {}.
+
+# for single-line comments.
+
+""" for multi-line comments.
+
+ðŸ–¥ Example Code
+python
+Copy
+Edit
+# hello.py
+# My first Python script
+print("Hello, DevOps World!")
+ðŸ”¹ DevOps Use Case
+Check Python installation before running automation scripts.
+
+bash
+Copy
+Edit
+
+**ðŸ’» `Day01_PythonSetup/hello.py`**
+```python
+# My first Python script
+print("Hello, DevOps World!")
